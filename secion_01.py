@@ -61,7 +61,8 @@ def par_inpar(numero):
      if numero %2 ==0:
          print(f"el numero{mi_minumero}es par")
      else:
-         print(f"el numero{mi_minumero}es inpar")
+        print(f"el numero{mi_minumero}es inpar")
+        
 print("======funcion par_impar()======")
 mi_miumero = int (input("cual es el numero que deseas verificar?: "))
 print(par_inpar(mi_minumero))
